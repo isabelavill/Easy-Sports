@@ -75,7 +75,7 @@ main{
     width:80vw;
     background-color: white;
     margin:auto;
-    margin-top:100px;
+    margin-top:70px;
     padding:10px;
     border-radius: 10px;
 }
@@ -84,4 +84,30 @@ main > p{
 }
 .cor{
     color:var(--verde);
+}
+
+#s1{
+    /**margin-top: 10px;
+    height:200px;
+    padding:10px;
+    background-color: var(--verde);
+    background-image: url(../imagens/pexels-zac-frith-918798.jpg);
+    background-position: bottom center;
+    background-size: cover;**/
+}
+#botao{
+    background-color: var(--verde);
+    text-align: center;
+    padding:10px;
+    margin-top:50px;
+    margin-bottom: 50px;
+    border-radius: 20px;
+}
+#botao:hover{
+    background-color: var(--preto);
+    color:white;
+}
+section > a{
+    text-decoration: none;
+    color:white;
 }

@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+/* Typical device breakpoints
+-----------------------------
+pequenas: até 600px; já fizemos
+celular: até 768px; já fizemos
+tablet: até 992px;
+desktop: até 1200px;
+grandes: mais de 1200px;
+*/
+
+@media screen and (min-width:768px){
+    main{
+        width:600px;
+    }
+}
