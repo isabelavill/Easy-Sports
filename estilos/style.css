@@ -21,8 +21,14 @@ FUNDO: #f1fdf0
 html,body{
     min-height: 100%;
     background-color: var(--claro);
-    font-family: var(--fonte1);
+    font-family: var(--fontepadrao);
+    background-image: url(../imagens/pexels-julia-kuzenkov-2996254.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
+
 header{
     padding-top:10px;
     background-color: white;
@@ -44,6 +50,7 @@ span#burger{
 menu{
     display: none;
     font-family: var(--fontepadrao);
+    
 }
 menu > ul{
     list-style-type: none;/*tira as bolinhas*/
@@ -60,4 +67,15 @@ menu > ul > li > a{
 menu > ul > li > a:hover{
     background-color: #4ced4388;
 
+}
+main > h2{
+    font-family: var(--logo);
+}
+main{
+    width:90vw;
+    background-color: white;
+    margin:auto;
+    margin-top:100px;
+    padding:10px;
+    border-radius: 7px;
 }
