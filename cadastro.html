@@ -16,6 +16,18 @@
             background-size: cover;
             
         }
+        #enviar{
+            margin-top:10px;
+            background-color: #4ced43;
+            width:100px;
+            height:30px;
+            color:black;
+            
+        }
+        #enviar:hover{
+            background-color: black;
+            color:white;
+        }
     </style>
 </head>
 <body>
@@ -26,14 +38,25 @@
         <menu id="itens">
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="#">Como funciona</a></li>
+                <li><a href="comofunciona.html">Como funciona</a></li>
                 <li><a href="quemsomos.html">Quem somos</a></li>
             </ul>
         </menu>
         
     </header>
     <main>
-        
+        <h2 style="text-align:center"><stan class="cor">CHEGAMOS</stan> EM BREVE...</h2>
+        <p>Seja o primeiro a receber notícias sobre a nossa plataforma (ainda em construção) e não perca nada!
+            <p>Basta cadastrar o seu e-mail no campo abaixo:</p>
+        </p>
+        <p>
+            <label for="iemail">E-mail:</label>
+            <input type="email" name="email" id="iemail" required placeholder="Digite seu e-mail" autocomplete="email">
+
+        </p>
+
+            <input type="submit" value="Enviar" id="enviar">
+        </p>
     </main>
 
     <script>
