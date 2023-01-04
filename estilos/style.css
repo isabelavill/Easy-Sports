@@ -1,0 +1,62 @@
+/**
+FUNDO: #f1fdf0
+
+**/
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Open+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Open+Sans:wght@700&display=swap');
+:root{
+--claro:#f1fdf0;
+--verde:#4ced43;
+--preto:#202020;
+--fontepadrao: "Montserrat", sans-serif;
+--logo: "Open Sans",cursive;
+}
+
+*{
+    margin:0px;
+    padding:0px;
+    
+}
+html,body{
+    min-height: 100%;
+    background-color: var(--claro);
+    font-family: var(--fonte1);
+}
+header{
+    padding-top:10px;
+    background-color: white;
+    color:white;
+    text-align: center;
+}
+span#burger{
+    display:block;
+    color:var(--verde);
+    text-align:center;
+    padding:10px;
+    cursor:pointer;/*muda a mãozinha*/
+   
+}
+#burger:hover{
+    background-color: var(--verde);
+    color:black;
+}
+menu{
+    display: none;
+    font-family: var(--fontepadrao);
+}
+menu > ul{
+    list-style-type: none;/*tira as bolinhas*/
+}
+menu > ul > li > a{
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    background-color: white;
+    color:black; 
+    text-align: center;
+    border-top: 2px solid #4ced4342;
+}
+menu > ul > li > a:hover{
+    background-color: var(--claro);
+}
