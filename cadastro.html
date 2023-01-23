@@ -50,14 +50,14 @@
         <p>Seja o primeiro a receber notícias sobre a nossa plataforma (ainda em construção) e não perca nada!
             <p>Basta cadastrar o seu e-mail no campo abaixo:</p>
         </p>
-        <p>
-            <label for="iemail">E-mail:</label>
-            <input type="email" name="email" id="iemail" required placeholder="Digite seu e-mail" autocomplete="email">
-
-        </p>
-
-            <input type="submit" value="Enviar" id="enviar">
-        </p>
+        <form action="arquivo.php" method="post" >
+            <p>
+                <label for="iemail">E-mail:</label>
+                <input type="email" name="iemail" id="iemail" required placeholder="Digite seu e-mail" autocomplete="email">
+            </p>
+                <input type="submit" value="Enviar" id="enviar">
+            </p>
+        </form>
     </main>
 
     <script>
